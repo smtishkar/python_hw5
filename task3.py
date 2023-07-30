@@ -13,7 +13,7 @@
 
 
 # Рабочий вариант с yield
-def fib(number):
+def fib(number: int) -> int:
     num1, num2 = 1, 1
     num3 = 0
     print(num1, num2, end=" ")
